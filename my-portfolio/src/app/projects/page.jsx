@@ -1,35 +1,53 @@
 export default function Projects() {
-    const projects = [
-        {
-            title: "Polystox Marketplace",
-            description: "Online marketplace for polymers built with Spring Boot + React.",
-            link: "https://polystox.com",
-        },
-        {
-            title: "E-commerce App",
-            description: "Full-stack app with Golang (Gin) backend & MongoDB.",
-            link: "#",
-        },
-    ];
-
-    return (
-        <section className="max-w-4xl mx-auto py-16">
-            <h2 className="text-3xl font-bold mb-6">Projects</h2>
-            <div className="grid gap-6 md:grid-cols-2">
-                {projects.map((project, i) => (
-                    <div key={i} className="border p-6 rounded-lg shadow hover:shadow-lg">
-                        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                        <p className="text-gray-600 mb-4">{project.description}</p>
-                        <a
-                            href={project.link}
-                            className="text-blue-600 hover:underline"
-                            target="_blank"
-                        >
-                            View Project →
-                        </a>
-                    </div>
-                ))}
+  return (
+    <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <h2 className="text-4xl font-extrabold text-gray-900 mb-12 text-center">My Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {/* Example Project Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="/images/project1.jpg" alt="Project 1" className="w-full h-48 object-cover" />
+          <div className="p-6">
+            <h3 className="text-2xl font-semibold text-blue-600 mb-2">Project Title One</h3>
+            <p className="text-gray-700 mb-4">A brief description of Project One, highlighting its purpose and key features.</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">React</span>
+              <span className="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">Node.js</span>
+              <span className="bg-yellow-100 text-yellow-800 text-sm font-medium px-2.5 py-0.5 rounded">MongoDB</span>
             </div>
-        </section>
-    );
+            <a href="#" className="text-blue-600 hover:text-blue-800 font-semibold">View Details &rarr;</a>
+          </div>
+        </div>
+
+        {/* Example Project Card 2 */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="/images/project2.jpg" alt="Project 2" className="w-full h-48 object-cover" />
+          <div className="p-6">
+            <h3 className="text-2xl font-semibold text-blue-600 mb-2">Project Title Two</h3>
+            <p className="text-gray-700 mb-4">A brief description of Project Two, highlighting its purpose and key features.</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded">Angular</span>
+              <span className="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">Spring Boot</span>
+              <span className="bg-indigo-100 text-indigo-800 text-sm font-medium px-2.5 py-0.5 rounded">PostgreSQL</span>
+            </div>
+            <a href="#" className="text-blue-600 hover:text-blue-800 font-semibold">View Details &rarr;</a>
+          </div>
+        </div>
+
+        {/* Example Project Card 3 */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+          <img src="/images/project3.jpg" alt="Project 3" className="w-full h-48 object-cover" />
+          <div className="p-6">
+            <h3 className="text-2xl font-semibold text-blue-600 mb-2">Project Title Three</h3>
+            <p className="text-gray-700 mb-4">A brief description of Project Three, highlighting its purpose and key features.</p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              <span className="bg-pink-100 text-pink-800 text-sm font-medium px-2.5 py-0.5 rounded">Next.js</span>
+              <span className="bg-gray-100 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded">Golang</span>
+              <span className="bg-teal-100 text-teal-800 text-sm font-medium px-2.5 py-0.5 rounded">Docker</span>
+            </div>
+            <a href="#" className="text-blue-600 hover:text-blue-800 font-semibold">View Details &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
