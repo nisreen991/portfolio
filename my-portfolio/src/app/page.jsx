@@ -3,7 +3,7 @@ export default function Home() {
     <section className="text-center py-20">
       <h1 className="text-5xl font-bold mb-4">Hi, I’m Nisreen 👋</h1>
       <p className="text-xl text-gray-600 mb-8">
-        Full Stack Developer specializing in Golang, React, and Next.js
+        Software Engineer specializing in Golang, React, and Next.js, Angular, Java Springboot, MongoDB, and PostgreSQL.
       </p>
       <a
         href="/projects"
