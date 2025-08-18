@@ -8,7 +8,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors duration-300"
+      className="p-2 rounded-full bg-card-background text-text-color transition-colors duration-300"
       aria-label="Toggle theme"
     >
       {theme === 'light' ? (

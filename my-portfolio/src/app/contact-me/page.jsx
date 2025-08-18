@@ -41,7 +41,15 @@ export default function ContactMe() {
         </div>
       </div>
 
-      <p className="text-md text-text-color">
+      <a
+        href="mailto:nisreensabir@example.com"
+        className="px-6 py-3 rounded-lg shadow hover:opacity-90 transition duration-300 text-white inline-block"
+        style={{ background: 'linear-gradient(to right, var(--gradient-start), var(--gradient-end))' }}
+      >
+        Say Hello
+      </a>
+
+      <p className="text-md text-text-color mt-8">
         I'm always open to new opportunities and collaborations. Let's build something amazing together!
       </p>
     </section>

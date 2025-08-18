@@ -8,35 +8,35 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow sticky top-0 z-50 dark:bg-gray-800">
+    <nav className="bg-card-background shadow sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+        <Link href="/" className="text-2xl font-bold text-primary-color">
           Nisreen Sabir
         </Link>
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="/about-me" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/about-me" className="text-text-color hover:text-primary-color transition duration-300">
             About
           </Link>
-          <Link href="/skills" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/skills" className="text-text-color hover:text-primary-color transition duration-300">
             Skills
           </Link>
-          <Link href="/work-experience" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/work-experience" className="text-text-color hover:text-primary-color transition duration-300">
             Experience
           </Link>
-          <Link href="/projects" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/projects" className="text-text-color hover:text-primary-color transition duration-300">
             Projects
           </Link>
-          <Link href="/interests" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/interests" className="text-text-color hover:text-primary-color transition duration-300">
             Interests
           </Link>
-          <Link href="/contact-me" className="text-gray-700 hover:text-blue-600 transition duration-300 dark:text-gray-300 dark:hover:text-blue-400">
+          <Link href="/contact-me" className="text-text-color hover:text-primary-color transition duration-300">
             Contact
           </Link>
           <ThemeToggle />
         </div>
         <div className="md:hidden flex items-center">
           <ThemeToggle />
-          <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 focus:outline-none ml-4 dark:text-gray-300">
+          <button onClick={() => setIsOpen(!isOpen)} className="text-text-color focus:outline-none ml-4">
             <svg
               className="w-8 h-8"
               fill="none"
@@ -55,23 +55,23 @@ export default function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg py-2 dark:bg-gray-800">
-          <Link href="/about-me" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+        <div className="md:hidden bg-card-background shadow-lg py-2">
+          <Link href="/about-me" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             About
           </Link>
-          <Link href="/skills" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+          <Link href="/skills" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             Skills
           </Link>
-          <Link href="/work-experience" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+          <Link href="/work-experience" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             Experience
           </Link>
-          <Link href="/projects" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+          <Link href="/projects" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             Projects
           </Link>
-          <Link href="/interests" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+          <Link href="/interests" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             Interests
           </Link>
-          <Link href="/contact-me" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+          <Link href="/contact-me" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
             Contact
           </Link>
         </div>
