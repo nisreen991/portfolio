@@ -9,14 +9,14 @@ export default function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-6xl font-bold"
+          className="text-4xl md:text-6xl font-bold text-foreground"
         >
           Hi, I’m Nisreen 👋
         </motion.h1>
-        <p className="mt-4 text-lg text-gray-700">
+        <p className="mt-4 text-lg text-text-color">
           Software Engineer specializing in Golang, React, and Next.js, Angular, Java Springboot, MongoDB, and PostgreSQL.
         </p>
-        <a href="/projects" className="mt-8 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg">
+        <a href="/projects" className="mt-8 inline-block bg-primary-color text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition duration-300">
           View My Work
         </a>
       </div>

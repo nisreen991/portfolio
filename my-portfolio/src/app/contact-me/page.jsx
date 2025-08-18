@@ -1,8 +1,8 @@
 export default function ContactMe() {
   return (
     <section className="max-w-xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg text-center">
-      <h2 className="text-4xl font-extrabold text-gray-900 mb-8">Get In Touch</h2>
-      <p className="text-lg text-gray-700 mb-8">
+      <h2 className="text-4xl font-extrabold text-foreground mb-8">Get In Touch</h2>
+      <p className="text-lg text-text-color mb-8">
         Have a project in mind, a question, or just want to say hello? I'd love to hear from you!
         Feel free to reach out through any of the following channels:
       </p>
@@ -12,7 +12,7 @@ export default function ContactMe() {
           <img src="/icons/email.svg" alt="Email" className="h-8 w-8" />
           <a
             href="mailto:nisreensabir@example.com"
-            className="text-blue-600 hover:underline text-xl"
+            className="text-primary-color hover:underline text-xl"
           >
             nisreensabir@example.com
           </a>
@@ -23,7 +23,7 @@ export default function ContactMe() {
             href="https://www.linkedin.com/in/nisreensabir"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline text-xl"
+            className="text-primary-color hover:underline text-xl"
           >
             LinkedIn Profile
           </a>
@@ -34,14 +34,14 @@ export default function ContactMe() {
             href="https://github.com/nisreensabir"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-600 hover:underline text-xl"
+            className="text-primary-color hover:underline text-xl"
           >
             GitHub Profile
           </a>
         </div>
       </div>
 
-      <p className="text-md text-gray-600">
+      <p className="text-md text-text-color">
         I'm always open to new opportunities and collaborations. Let's build something amazing together!
       </p>
     </section>

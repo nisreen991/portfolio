@@ -15,20 +15,20 @@ export default function AboutMe() {
 
   return (
     <motion.section
-      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg"
+      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-card-background shadow-lg rounded-lg"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
-      <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-gray-900 mb-8 text-center">About Me</motion.h2>
-      <motion.div variants={containerVariants} className="text-lg text-gray-700 leading-relaxed space-y-6">
+      <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-foreground mb-8 text-center">About Me</motion.h2>
+      <motion.div variants={containerVariants} className="text-lg text-text-color leading-relaxed space-y-6">
         <motion.p variants={itemVariants}>
           Hello! I'm Nisreen, a passionate Full Stack Developer with 3.5 years of experience crafting robust and scalable web applications.
           My journey in software development has been driven by a curiosity for how things work and a desire to build solutions that make a real impact.
         </motion.p>
         <motion.p variants={itemVariants}>
-          I specialize in bringing ideas to life across the entire stack, from dynamic frontends with <span className="font-semibold text-blue-600">React</span>, <span className="font-semibold text-blue-600">Next.js</span>, and <span className="font-semibold text-blue-600">Angular</span>,
-          to powerful backends built with <span className="font-semibold text-blue-600">Golang</span> and <span className="font-semibold text-blue-600">Java Spring Boot</span>. I'm also proficient in database management with <span className="font-semibold text-blue-600">MongoDB</span> and <span className="font-semibold text-blue-600">PostgreSQL</span>.
+          I specialize in bringing ideas to life across the entire stack, from dynamic frontends with <span className="font-semibold text-primary-color">React</span>, <span className="font-semibold text-primary-color">Next.js</span>, and <span className="font-semibold text-primary-color">Angular</span>,
+          to powerful backends built with <span className="font-semibold text-primary-color">Golang</span> and <span className="font-semibold text-primary-color">Java Spring Boot</span>. I'm also proficient in database management with <span className="font-semibold text-primary-color">MongoDB</span> and <span className="font-semibold text-primary-color">PostgreSQL</span>.
         </motion.p>
         <motion.p variants={itemVariants}>
           I thrive in environments where I can continuously learn and apply new technologies to solve complex problems.
