@@ -42,7 +42,7 @@ export default function Projects() {
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               <span className="bg-pink-100 text-pink-800 text-sm font-medium px-2.5 py-0.5 rounded">Python</span>
-              <span className="bg-gray-100 text-gray-800 text-sm font-medium px-2.5 py-0.5 rounded">Data Science</span>
+              <span className="bg-teal-100 text-teal-800 text-sm font-medium px-2.5 py-0.5 rounded">Data Science</span>
             </div>
             {/* <a href="#" className="text-primary-color hover:text-secondary-color font-semibold">View Details &rarr;</a> */}
           </div>
