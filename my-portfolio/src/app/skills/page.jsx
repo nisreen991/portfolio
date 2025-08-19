@@ -15,7 +15,7 @@ export default function Skills() {
 
   return (
     <motion.section
-      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg"
+      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-background"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -26,37 +26,29 @@ export default function Skills() {
         <motion.div variants={containerVariants}>
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6">Frontend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/react.svg" alt="React" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">React.js</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">React.js</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/nextjs.svg" alt="Next.js" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Next.js</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Next.js</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/angular.svg" alt="Angular" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Angular</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Angular</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/tailwind.svg" alt="Tailwind CSS" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Tailwind CSS</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Tailwind CSS</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/html.svg" alt="HTML5" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">HTML5</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">HTML5</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/css.svg" alt="CSS3" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">CSS3</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">CSS3</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/javascript.svg" alt="JavaScript" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">JavaScript</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">JavaScript</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/typescript.svg" alt="TypeScript" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">TypeScript</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">TypeScript</span>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -65,17 +57,14 @@ export default function Skills() {
         <motion.div variants={containerVariants}>
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6">Backend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/golang.svg" alt="Golang" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Golang</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Golang</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/java.svg" alt="Java" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Java</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Java</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/springboot.svg" alt="Spring Boot" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Spring Boot</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Spring Boot</span>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -84,13 +73,11 @@ export default function Skills() {
         <motion.div variants={containerVariants}>
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6">Databases</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/mongodb.svg" alt="MongoDB" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">MongoDB</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">MongoDB</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/postgresql.svg" alt="PostgreSQL" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">PostgreSQL</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">PostgreSQL</span>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -99,17 +86,14 @@ export default function Skills() {
         <motion.div variants={containerVariants}>
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6">Tools & Platforms</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/git.svg" alt="Git" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Git</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Git</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/docker.svg" alt="Docker" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">Docker</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">Docker</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center space-x-3">
-              <img src="/icons/aws.svg" alt="AWS" className="h-8 w-8" />
-              <span className="text-lg text-text-color font-medium">AWS</span>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+              <span className="text-sm font-medium">AWS</span>
             </motion.div>
           </motion.div>
         </motion.div>
