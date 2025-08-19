@@ -23,11 +23,11 @@ export default function AboutMe() {
       <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-foreground mb-8 text-center">About Me</motion.h2>
       <motion.div variants={containerVariants} className="text-lg text-text-color leading-relaxed space-y-6">
         <motion.p variants={itemVariants}>
-          Hello! I'm Nisreen, a passionate Full Stack Developer with 3.5 years of experience crafting robust and scalable web applications.
+          Hello! I'm Nisreen Sabir, a passionate Software Engineer with 4 years of experience crafting robust and scalable applications.
           My journey in software development has been driven by a curiosity for how things work and a desire to build solutions that make a real impact.
         </motion.p>
         <motion.p variants={itemVariants}>
-          I specialize in bringing ideas to life across the entire stack, from dynamic frontends with <span className="font-semibold text-primary-color">React</span>, <span className="font-semibold text-primary-color">Next.js</span>, and <span className="font-semibold text-primary-color">Angular</span>,
+          I specialize in bringing ideas to life across the full stack, from dynamic frontends with <span className="font-semibold text-primary-color">React</span>, <span className="font-semibold text-primary-color">Next.js</span>, and <span className="font-semibold text-primary-color">Angular</span>,
           to powerful backends built with <span className="font-semibold text-primary-color">Golang</span> and <span className="font-semibold text-primary-color">Java Spring Boot</span>. I'm also proficient in database management with <span className="font-semibold text-primary-color">MongoDB</span> and <span className="font-semibold text-primary-color">PostgreSQL</span>.
         </motion.p>
         <motion.p variants={itemVariants}>
@@ -35,7 +35,7 @@ export default function AboutMe() {
           My focus is always on writing clean, efficient, and maintainable code, while also ensuring a smooth and intuitive user experience.
         </motion.p>
         <motion.p variants={itemVariants}>
-          Outside of coding, I enjoy [mention a couple of interests, e.g., hiking, reading, photography] which help me stay creative and bring a fresh perspective to my work.
+          Outside of coding, I enjoy reading, traveling, and playing sports which help me stay creative and bring a fresh perspective to my work.
           I'm always open to new challenges and collaborations. Feel free to explore my projects or get in touch!
         </motion.p>
       </motion.div>
