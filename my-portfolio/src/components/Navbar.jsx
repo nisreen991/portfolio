@@ -30,8 +30,11 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               className={`
-                text-text-color hover:text-primary-color transition duration-300
-                ${pathname === link.href ? "text-primary-color border-b-2 border-primary-color" : ""}
+                transition duration-300
+                ${pathname === link.href
+                  ? "text-primary-color border-b-2 border-primary-color"
+                  : "text-text-color hover:text-primary-color hover:border-b-2 hover:border-primary-color"
+                }
               `}
             >
               {link.label}
@@ -66,8 +69,11 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               className={`
-                block px-4 py-2 text-text-color hover:bg-background
-                ${pathname === link.href ? "text-primary-color bg-background" : ""}
+                block px-4 py-2 transition duration-300
+                ${pathname === link.href
+                  ? "text-primary-color bg-background"
+                  : "text-text-color hover:bg-background hover:text-primary-color"
+                }
               `}
               onClick={() => setIsOpen(false)}
             >
