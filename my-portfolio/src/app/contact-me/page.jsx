@@ -14,10 +14,10 @@ export default function ContactMe() {
           {/* <img src="/icons/email.svg" alt="Email" className="h-8 w-8" /> */}
           <EnvelopeAtFill className="h-8 w-8" />
           <a
-            href="mailto:nisreensabir@gmail.com"
+            href="mailto:nisreensabir991@gmail.com"
             className="text-primary-color hover:underline text-xl"
           >
-            nisreensabir@gmail.com
+            nisreensabir991@gmail.com
           </a>
         </div>
         <div className="flex items-center justify-center space-x-4">
@@ -47,7 +47,7 @@ export default function ContactMe() {
       </div>
 
       <a
-        href="mailto:nisreensabir@gmail.com"
+        href="mailto:nisreensabir991@gmail.com"
         className="px-6 py-3 rounded-lg shadow hover:opacity-90 transition duration-300 text-white inline-block"
         style={{ background: 'linear-gradient(to right, var(--gradient-start), var(--gradient-end))' }}
       >
