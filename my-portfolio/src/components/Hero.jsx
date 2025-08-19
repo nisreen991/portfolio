@@ -14,7 +14,7 @@ export default function Hero() {
           Hi, I’m Nisreen 👋
         </motion.h1>
         <p className="mt-4 text-lg text-text-color">
-          Software Engineer specializing in Golang, React, and Next.js, Angular, Java Springboot, MongoDB, and PostgreSQL.
+          Software Engineer specializing in Golang, React, and Next.js, Angular, Java, Springboot, MongoDB, and PostgreSQL.
         </p>
         <a href="/projects" className="mt-8 inline-block bg-primary-color text-white px-6 py-3 rounded-lg shadow hover:opacity-90 transition duration-300"
           style={{ background: 'linear-gradient(to right, var(--gradient-start), var(--gradient-end))' }}>
