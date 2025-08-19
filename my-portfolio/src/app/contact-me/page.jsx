@@ -1,3 +1,5 @@
+import { EnvelopeAtFill, Github, Linkedin } from "react-bootstrap-icons";
+
 export default function ContactMe() {
   return (
     <section className="max-w-xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg text-center">
@@ -9,18 +11,20 @@ export default function ContactMe() {
 
       <div className="space-y-6 mb-10">
         <div className="flex items-center justify-center space-x-4">
-          <img src="/icons/email.svg" alt="Email" className="h-8 w-8" />
+          {/* <img src="/icons/email.svg" alt="Email" className="h-8 w-8" /> */}
+          <EnvelopeAtFill className="h-8 w-8" />
           <a
-            href="mailto:nisreensabir@example.com"
+            href="mailto:nisreensabir@gmail.com"
             className="text-primary-color hover:underline text-xl"
           >
-            nisreensabir@example.com
+            nisreensabir@gmail.com
           </a>
         </div>
         <div className="flex items-center justify-center space-x-4">
-          <img src="/icons/linkedin.svg" alt="LinkedIn" className="h-8 w-8" />
+          {/* <img src="/icons/linkedin.svg" alt="LinkedIn" className="h-8 w-8" /> */}
+          <Linkedin className="h-8 w-8" />
           <a
-            href="https://www.linkedin.com/in/nisreensabir"
+            href="https://www.linkedin.com/in/nisreen-sabir-6919b2160"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-color hover:underline text-xl"
@@ -29,9 +33,10 @@ export default function ContactMe() {
           </a>
         </div>
         <div className="flex items-center justify-center space-x-4">
-          <img src="/icons/github.svg" alt="GitHub" className="h-8 w-8" />
+          {/* <img src="/icons/github.svg" alt="GitHub" className="h-8 w-8" /> */}
+          <Github className="h-8 w-8" />
           <a
-            href="https://github.com/nisreensabir"
+            href="https://github.com/nisreen991"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary-color hover:underline text-xl"
@@ -42,7 +47,7 @@ export default function ContactMe() {
       </div>
 
       <a
-        href="mailto:nisreensabir@example.com"
+        href="mailto:nisreensabir@gmail.com"
         className="px-6 py-3 rounded-lg shadow hover:opacity-90 transition duration-300 text-white inline-block"
         style={{ background: 'linear-gradient(to right, var(--gradient-start), var(--gradient-end))' }}
       >
