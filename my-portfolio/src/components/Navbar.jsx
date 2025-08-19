@@ -2,10 +2,21 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation"; // Import usePathname
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // Get current pathname
+
+  const navLinks = [
+    { href: "/about-me", label: "About" },
+    { href: "/skills", label: "Skills" },
+    { href: "/work-experience", label: "Experience" },
+    { href: "/projects", label: "Projects" },
+    { href: "/interests", label: "Interests" },
+    { href: "/contact-me", label: "Contact" },
+  ];
 
   return (
     <nav className="bg-card-background shadow sticky top-0 z-50">
@@ -14,24 +25,18 @@ export default function Navbar() {
           Nisreen Sabir
         </Link>
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="/about-me" className="text-text-color hover:text-primary-color transition duration-300">
-            About
-          </Link>
-          <Link href="/skills" className="text-text-color hover:text-primary-color transition duration-300">
-            Skills
-          </Link>
-          <Link href="/work-experience" className="text-text-color hover:text-primary-color transition duration-300">
-            Experience
-          </Link>
-          <Link href="/projects" className="text-text-color hover:text-primary-color transition duration-300">
-            Projects
-          </Link>
-          <Link href="/interests" className="text-text-color hover:text-primary-color transition duration-300">
-            Interests
-          </Link>
-          <Link href="/contact-me" className="text-text-color hover:text-primary-color transition duration-300">
-            Contact
-          </Link>
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`
+                text-text-color hover:text-primary-color transition duration-300
+                ${pathname === link.href ? "text-primary-color border-b-2 border-primary-color" : ""}
+              `}
+            >
+              {link.label}
+            </Link>
+          ))}
           <ThemeToggle />
         </div>
         <div className="md:hidden flex items-center">
@@ -56,24 +61,19 @@ export default function Navbar() {
       </div>
       {isOpen && (
         <div className="md:hidden bg-card-background shadow-lg py-2">
-          <Link href="/about-me" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            About
-          </Link>
-          <Link href="/skills" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            Skills
-          </Link>
-          <Link href="/work-experience" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            Experience
-          </Link>
-          <Link href="/projects" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            Projects
-          </Link>
-          <Link href="/interests" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            Interests
-          </Link>
-          <Link href="/contact-me" className="block px-4 py-2 text-text-color hover:bg-background" onClick={() => setIsOpen(false)}>
-            Contact
-          </Link>
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`
+                block px-4 py-2 text-text-color hover:bg-background
+                ${pathname === link.href ? "text-primary-color bg-background" : ""}
+              `}
+              onClick={() => setIsOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       )}
     </nav>
