@@ -13,6 +13,7 @@
   --gradient-end: #8e44ad;
   --pill-background: #feeafa;
   --pill-text: #3e1f47;
+  --mode: #ffd60a;
 }
 
 @theme inline {
@@ -21,6 +22,7 @@
   --color-card: var(--card-background);
   --color-pill: var(--pill-background);
   --color-pill-text: var(--pill-text);
+  --color-mode: var(--mode);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -38,6 +40,7 @@ html.dark {
   --gradient-end: #af7ac5;
   --pill-background: #264653;
   --pill-text: #f2e9e4;
+  --mode: #212f3d;
 }
 
 body {
