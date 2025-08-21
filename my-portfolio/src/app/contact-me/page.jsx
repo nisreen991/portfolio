@@ -2,7 +2,7 @@ import { EnvelopeAtFill, Github, Linkedin } from "react-bootstrap-icons";
 
 export default function ContactMe() {
   return (
-    <section className="max-w-xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-white shadow-lg rounded-lg text-center">
+    <section className="max-w-xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-card shadow-lg rounded-lg text-center">
       <h2 className="text-4xl font-extrabold text-foreground mb-8">Get In Touch</h2>
       <p className="text-lg text-text-color mb-8">
         Have a project in mind, a question, or just want to say hello? I'd love to hear from you!

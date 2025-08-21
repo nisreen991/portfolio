@@ -19,7 +19,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-card shadow sticky top-0 z-50">
+    <nav className="bg-white shadow sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-primary-color">
           Nisreen Sabir

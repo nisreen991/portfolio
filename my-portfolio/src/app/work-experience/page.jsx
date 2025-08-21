@@ -40,12 +40,12 @@ export default function WorkExperience() {
           <div className="mt-4">
             <h4 className="text-lg font-semibold text-primary-color mb-2">Tech Stack:</h4>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">React</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Next.js</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Java Spring Boot</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">PostgreSQL</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Tailwind CSS</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">REST API</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">React</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Next.js</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Java Spring Boot</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">PostgreSQL</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Tailwind CSS</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">REST API</span>
             </div>
           </div>
         </motion.div>
@@ -65,12 +65,12 @@ export default function WorkExperience() {
           <div className="mt-4">
             <h4 className="text-lg font-semibold text-primary-color mb-2">Tech Stack:</h4>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Golang</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Angular</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Typescript</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">MongoDB</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">GraphQL</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">REST API</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Golang</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Angular</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Typescript</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">MongoDB</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">GraphQL</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">REST API</span>
             </div>
           </div>
         </motion.div>
@@ -88,10 +88,10 @@ export default function WorkExperience() {
           <div className="mt-4">
             <h4 className="text-lg font-semibold text-primary-color mb-2">Tech Stack:</h4>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Java</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Spring Boot</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">MySQL</span>
-              <span className="bg-slate-700 text-white px-3 py-1 rounded-full text-sm shadow-sm">Angular</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Java</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Spring Boot</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">MySQL</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Angular</span>
             </div>
           </div>
         </motion.div>

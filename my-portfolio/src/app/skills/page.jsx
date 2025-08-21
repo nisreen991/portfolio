@@ -28,28 +28,28 @@ export default function Skills() {
         <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><CodeSlash /> Frontend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">React.js</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Next.js</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Angular</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Tailwind CSS</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">HTML5</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">CSS3</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">JavaScript</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">TypeScript</span>
             </motion.div>
           </motion.div>
@@ -59,13 +59,13 @@ export default function Skills() {
         <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><FaServer /> Backend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Golang</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Java</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Spring Boot</span>
             </motion.div>
           </motion.div>
@@ -75,10 +75,10 @@ export default function Skills() {
         <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><Database /> Databases</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">MongoDB</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">PostgreSQL</span>
             </motion.div>
           </motion.div>
@@ -88,13 +88,13 @@ export default function Skills() {
         <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><Tools /> Tools & Platforms</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Git</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">Docker</span>
             </motion.div>
-            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">AWS</span>
             </motion.div>
           </motion.div>

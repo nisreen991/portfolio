@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-card py-6 mt-12 text-center text-text-color border-t border-border-color">
+        <footer className="bg-white py-6 mt-12 text-center text-text-color border-t border-border-color">
             <p>© {new Date().getFullYear()} Nisreen Sabir. All rights reserved.</p>
         </footer>
     );

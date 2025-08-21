@@ -2,21 +2,25 @@
 
 :root {
   /* Light Theme */
-  --background: #f4f7f6; /* Off-white */
-  --foreground: #2c3e50; /* Dark blue-gray */
-  --card-background: #ffffff;
-  --text-color: #34495e; /* Medium blue-gray text */
+  --background: #fff0f3; /* Off-white */
+  --foreground: #800f2f; /* Dark blue-gray */
+  --card-background: #ffb3c1;
+  --text-color: #22577a; /* Medium blue-gray text */
   --primary-color: #3498db; /* Bright blue */
   --secondary-color: #8e44ad; /* Purple */
   --border-color: #ecf0f1; /* Light gray border */
   --gradient-start: #3498db;
   --gradient-end: #8e44ad;
+  --pill-background: #abc4ff;
+  --pill-text: #3e1f47;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card-background);
+  --color-pill: var(--pill-background);
+  --color-pill-text: var(--pill-text);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
