@@ -36,6 +36,8 @@ html.dark {
   --border-color: #34495e; /* Darker blue-gray border */
   --gradient-start: #5dade2;
   --gradient-end: #af7ac5;
+  --pill-background: #abc4ff;
+  --pill-text: #3e1f47;
 }
 
 body {
