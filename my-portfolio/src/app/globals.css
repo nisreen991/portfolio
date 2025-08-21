@@ -27,17 +27,17 @@
 
 html.dark {
   /* Dark Theme */
-  --background: #013a63; /* Dark charcoal */
+  --background: #1c2833; /* Dark charcoal */
   --foreground: #ecf0f1; /* Off-white */
-  --card-background: #012a4a; /* Darker charcoal */
+  --card-background: #212f3d; /* Darker charcoal */
   --text-color: #bdc3c7; /* Light gray text */
   --primary-color: #5dade2; /* Lighter blue */
   --secondary-color: #af7ac5; /* Lighter purple */
   --border-color: #34495e; /* Darker blue-gray border */
   --gradient-start: #5dade2;
   --gradient-end: #af7ac5;
-  --pill-background: #abc4ff;
-  --pill-text: #3e1f47;
+  --pill-background: #264653;
+  --pill-text: #f2e9e4;
 }
 
 body {
