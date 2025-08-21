@@ -15,7 +15,7 @@ export default function AboutMe() {
 
   return (
     <motion.section
-      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-card-background shadow-lg rounded-lg"
+      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 bg-card shadow-lg rounded-lg"
       variants={containerVariants}
       initial="hidden"
       animate="visible"

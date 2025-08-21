@@ -23,7 +23,7 @@ export default function WorkExperience() {
       <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-gray-900 mb-12 text-center">Work Experience</motion.h2>
       <div className="max-w-4xl mx-auto space-y-10">
         {/* Work Experience Entry 1 */}
-        <motion.div variants={itemVariants} className="bg-card-background shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
+        <motion.div variants={itemVariants} className="bg-card shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
           <h3 className="text-2xl font-semibold text-primary-color mb-2">Senior Software Developement Engineer</h3>
           <p className="text-xl text-text-color mb-1">Techdome Solutions - Indore, M.P.</p>
           <p className="text-text-color text-sm mb-4">April 2025 - Present</p>
@@ -51,7 +51,7 @@ export default function WorkExperience() {
         </motion.div>
 
         {/* Work Experience Entry 2 */}
-        <motion.div variants={itemVariants} className="bg-card-background shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
+        <motion.div variants={itemVariants} className="bg-card shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
           <h3 className="text-2xl font-semibold text-primary-color mb-2">Senior Systems Engineer</h3>
           <p className="text-xl text-text-color mb-1">Infosys - Indore, M.P.</p>
           <p className="text-text-color text-sm mb-4">July 2021 - December 2024</p>
@@ -76,7 +76,7 @@ export default function WorkExperience() {
         </motion.div>
 
         {/* Work Experience Entry 3 */}
-        <motion.div variants={itemVariants} className="bg-card-background shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
+        <motion.div variants={itemVariants} className="bg-card shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
           <h3 className="text-2xl font-semibold text-primary-color mb-2">Systems Engineer Trainee</h3>
           <p className="text-xl text-text-color mb-1">Infosys - Mysore, KA</p>
           <p className="text-text-color text-sm mb-4">February 2021 - April 2021</p>

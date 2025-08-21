@@ -23,7 +23,7 @@ export default function Interests() {
       <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-foreground mb-12 text-center">My Interests</motion.h2>
       <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Example Interest 1 */}
-        <motion.div variants={itemVariants} className="bg-card-background p-6 rounded-lg shadow-md flex items-start space-x-4">
+        <motion.div variants={itemVariants} className="bg-card p-6 rounded-lg shadow-md flex items-start space-x-4">
           <img src="/icons/reading.png" alt="Reading" className="h-10 w-10 text-primary-color" />
           <div>
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Reading & Learning</h3>
@@ -35,7 +35,7 @@ export default function Interests() {
         </motion.div>
 
         {/* Example Interest 2 */}
-        <motion.div variants={itemVariants} className="bg-card-background p-6 rounded-lg shadow-md flex items-start space-x-4">
+        <motion.div variants={itemVariants} className="bg-card p-6 rounded-lg shadow-md flex items-start space-x-4">
           <img src="/icons/hiking.png" alt="Hiking" className="h-10 w-10 text-primary-color" />
           <div>
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Hiking & Outdoors</h3>
@@ -47,7 +47,7 @@ export default function Interests() {
         </motion.div>
 
         {/* Example Interest 3 */}
-        <motion.div variants={itemVariants} className="bg-card-background p-6 rounded-lg shadow-md flex items-start space-x-4">
+        <motion.div variants={itemVariants} className="bg-card p-6 rounded-lg shadow-md flex items-start space-x-4">
           <img src="/icons/camera.png" alt="Photography" className="h-10 w-10 text-primary-color" />
           <div>
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Photography</h3>
@@ -59,7 +59,7 @@ export default function Interests() {
         </motion.div>
 
         {/* Example Interest 4 */}
-        <motion.div variants={itemVariants} className="bg-card-background p-6 rounded-lg shadow-md flex items-start space-x-4">
+        <motion.div variants={itemVariants} className="bg-card p-6 rounded-lg shadow-md flex items-start space-x-4">
           <img src="/icons/cooking.png" alt="Cooking" className="h-10 w-10 text-primary-color" />
           <div>
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Cooking & Culinary Arts</h3>

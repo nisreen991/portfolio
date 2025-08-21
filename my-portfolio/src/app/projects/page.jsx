@@ -4,7 +4,7 @@ export default function Projects() {
       <h2 className="text-4xl font-extrabold text-foreground mb-12 text-center">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {/* Project Card 1 */}
-        <div className="bg-card-background shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+        <div className="bg-card shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img src="/images/project1.jpeg" alt="Employee Transport Management Using Cloud" className="w-full h-48 object-cover" />
           <div className="p-6">
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Employee Transport Management Using Cloud</h3>
@@ -19,7 +19,7 @@ export default function Projects() {
         </div>
 
         {/* Example Project Card 2 */}
-        <div className="bg-card-background shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+        <div className="bg-card shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img src="/images/project2.jpeg" alt="Linux CFS Algorithm Implementation, guided by Prof. D. A. Mehta" className="w-full h-48 object-cover" />
           <div className="p-6">
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Linux CFS Algorithm</h3>
@@ -34,7 +34,7 @@ export default function Projects() {
         </div>
 
         {/* Example Project Card 3 */}
-        <div className="bg-card-background shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+        <div className="bg-card shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img src="/images/project3.jpeg" alt="Dimensionality Reduction in Multiple View Datasets" className="w-full h-48 object-cover" />
           <div className="p-6">
             <h3 className="text-2xl font-semibold text-primary-color mb-2">Dimensionality Reduction in Multiple View Datasets</h3>

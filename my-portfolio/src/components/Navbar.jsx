@@ -19,7 +19,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-card-background shadow sticky top-0 z-50">
+    <nav className="bg-card shadow sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-primary-color">
           Nisreen Sabir
@@ -63,7 +63,7 @@ export default function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden bg-card-background shadow-lg py-2">
+        <div className="md:hidden bg-card shadow-lg py-2">
           {navLinks.map((link) => (
             <Link
               key={link.href}

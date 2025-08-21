@@ -25,7 +25,7 @@ export default function Skills() {
       <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-foreground mb-12 text-center">My Skills</motion.h2>
       <div className="space-y-10">
         {/* Frontend Skills */}
-        <motion.div variants={containerVariants} className="bg-card-background p-6 rounded-lg shadow-lg">
+        <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><CodeSlash /> Frontend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
@@ -56,7 +56,7 @@ export default function Skills() {
         </motion.div>
 
         {/* Backend Skills */}
-        <motion.div variants={containerVariants} className="bg-card-background p-6 rounded-lg shadow-lg">
+        <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><FaServer /> Backend</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
@@ -72,7 +72,7 @@ export default function Skills() {
         </motion.div>
 
         {/* Database Skills */}
-        <motion.div variants={containerVariants} className="bg-card-background p-6 rounded-lg shadow-lg">
+        <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><Database /> Databases</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
@@ -85,7 +85,7 @@ export default function Skills() {
         </motion.div>
 
         {/* Other Tools & Platforms */}
-        <motion.div variants={containerVariants} className="bg-card-background p-6 rounded-lg shadow-lg">
+        <motion.div variants={containerVariants} className="bg-card p-6 rounded-lg shadow-lg">
           <motion.h3 variants={itemVariants} className="text-3xl font-bold text-primary-color mb-6 flex items-center gap-2"><Tools /> Tools & Platforms</motion.h3>
           <motion.div variants={containerVariants} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-slate-700 text-white shadow-md">
