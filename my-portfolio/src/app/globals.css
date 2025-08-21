@@ -4,14 +4,14 @@
   /* Light Theme */
   --background: #fff0f3; /* Off-white */
   --foreground: #800f2f; /* Dark blue-gray */
-  --card-background: #ffb3c1;
+  --card-background: #ffccd5;
   --text-color: #22577a; /* Medium blue-gray text */
   --primary-color: #3498db; /* Bright blue */
   --secondary-color: #8e44ad; /* Purple */
   --border-color: #ecf0f1; /* Light gray border */
   --gradient-start: #3498db;
   --gradient-end: #8e44ad;
-  --pill-background: #abc4ff;
+  --pill-background: #feeafa;
   --pill-text: #3e1f47;
 }
 
@@ -27,9 +27,9 @@
 
 html.dark {
   /* Dark Theme */
-  --background: #1c2833; /* Dark charcoal */
+  --background: #013a63; /* Dark charcoal */
   --foreground: #ecf0f1; /* Off-white */
-  --card-background: #212f3d; /* Darker charcoal */
+  --card-background: #012a4a; /* Darker charcoal */
   --text-color: #bdc3c7; /* Light gray text */
   --primary-color: #5dade2; /* Lighter blue */
   --secondary-color: #af7ac5; /* Lighter purple */

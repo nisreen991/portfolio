@@ -15,7 +15,7 @@ export default function Interests() {
 
   return (
     <motion.section
-      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8 "
+      className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
