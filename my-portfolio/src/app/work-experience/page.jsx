@@ -24,6 +24,34 @@ export default function WorkExperience() {
       <div className="max-w-4xl mx-auto space-y-10">
         {/* Work Experience Entry 1 */}
         <motion.div variants={itemVariants} className="bg-card shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
+          <h3 className="text-2xl font-semibold text-primary-color mb-2">Senior Developement Engineer</h3>
+          <p className="text-xl text-text-color mb-1">Calsoft  Inc. - Indore, M.P.</p>
+          <p className="text-text-color text-sm mb-4">October 2025 - Present</p>
+          <ul className="list-disc list-inside text-text-color space-y-2">
+            <li>Designed and developed secure, scalable microservices for next-generation Identity and Access Management (IAM) Platform.</li>
+            <li>Migrated legacy Java-based IAM services to Golang, improving performance, reducing latency, and optimizing memory usage.</li>
+            <li>Built highly available APIs handling authentication, authorization and access control flows.</li>
+            <li>Designed and implemented highly scalable microservices using Go, following clean architecture and SOLID principles.</li>
+            <li>Developed resilient systems using Redis caching and PostgreSQL, ensuring high performance under load.</li>
+            <li>Integrated event-driven architecture using Kafka for audit logging and system communication.</li>
+            <li>Containerized applications using Docker and deployed on Kubernetes (K8s) ensuring operational scalability.</li>
+            <li>Contributed to secure coding practices, code reviews, performance optimizations, and system design discussions.</li>
+          </ul>
+
+          <div className="mt-4">
+            <h4 className="text-lg font-semibold text-primary-color mb-2">Tech Stack:</h4>
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Golang</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Kafka</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Redis</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">PostgreSQL</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Docker</span>
+              <span className="bg-pill text-pill-text px-3 py-1 rounded-full text-sm shadow-sm">Kubernetes</span>
+            </div>
+          </div>
+        </motion.div>
+        {/* Work Experience Entry 2 */}
+        <motion.div variants={itemVariants} className="bg-card shadow-lg rounded-lg p-8 transform transition duration-500 hover:scale-105">
           <h3 className="text-2xl font-semibold text-primary-color mb-2">Senior Software Developement Engineer</h3>
           <p className="text-xl text-text-color mb-1">Techdome Solutions - Indore, M.P.</p>
           <p className="text-text-color text-sm mb-4">April 2025 - Present</p>
