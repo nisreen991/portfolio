@@ -95,6 +95,9 @@ export default function Skills() {
               <span className="text-sm font-medium">Docker</span>
             </motion.div>
             <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
+              <span className="text-sm font-medium">Kubernetes</span>
+            </motion.div>
+            <motion.div variants={itemVariants} className="flex items-center px-4 py-2 rounded-full bg-pill text-pill-text shadow-md">
               <span className="text-sm font-medium">AWS</span>
             </motion.div>
           </motion.div>

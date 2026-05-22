@@ -23,7 +23,7 @@ export default function AboutMe() {
       <motion.h2 variants={itemVariants} className="text-4xl font-extrabold text-foreground mb-8 text-center">About Me</motion.h2>
       <motion.div variants={containerVariants} className="text-lg text-text-color leading-relaxed space-y-6">
         <motion.p variants={itemVariants}>
-          Hello! I'm Nisreen Sabir, a passionate Software Engineer with 4 years of experience crafting robust and scalable applications.
+          Hello! I'm Nisreen Sabir, a passionate Software Engineer with 4 years 9 months of experience crafting robust and scalable applications.
           My journey in software development has been driven by a curiosity for how things work and a desire to build solutions that make a real impact.
         </motion.p>
         <motion.p variants={itemVariants}>
